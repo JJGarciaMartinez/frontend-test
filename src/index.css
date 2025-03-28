@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@theme {
+  --bg-default: #080c0f;
+  --color-default: #ededed;
+  --color-default-contrast: #656767;
+  --color-primary: #ffee00;
+  --color-primary-contrast: #080c0f;
+  --color-secondary: #0c7ded;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-default);
+  color: var(--color-default);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
